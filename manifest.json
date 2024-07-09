@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Custom URL Shortcuts",
+  "version": "1.0",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "open-url-1": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+1"
+      },
+      "description": "Open URL 1"
+    },
+    "open-url-2": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+2"
+      },
+      "description": "Open URL 2"
+    },
+    "open-url-3": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+3"
+      },
+      "description": "Open URL 3"
+    }
+  }
+}
