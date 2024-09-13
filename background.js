@@ -5,5 +5,11 @@ chrome.commands.onCommand.addListener(function (command) {
     chrome.tabs.create({ url: "https://www.perplexity.ai" });
   } else if (command === "open-url-3") {
     chrome.tabs.create({ url: "https://claude.ai/new" });
+  } else if (command === "open-url-4") {
+    chrome.tabs.create({ url: "https://github.com/xobiomesh" });
   }
+
+
+  
+
 });

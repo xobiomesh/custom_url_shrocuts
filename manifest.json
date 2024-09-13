@@ -26,6 +26,12 @@
         "default": "Ctrl+Shift+3"
       },
       "description": "Open URL 3"
+    },
+    "open-url-4": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+4"
+      },
+      "description": "Open URL 4"
     }
   }
 }
